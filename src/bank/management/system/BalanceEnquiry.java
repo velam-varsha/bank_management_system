@@ -28,7 +28,6 @@ public class BalanceEnquiry extends JFrame implements ActionListener {
         back.addActionListener(this);
         image.add(back);
 
-        JButton lack = new JButton("Back");
 
         connection c = new connection();
         int balance = 0;
