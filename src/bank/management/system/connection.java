@@ -25,7 +25,7 @@ public class connection {
             // Class.forName(com.mysql.cj.jdbc.Driver);  // here Class is a class name and forName is a static method
 
             // to create connection:
-            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "Varsha@62");  //mysql by default hosts on port 3306
+            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "<type the password of MySQL>");  //mysql by default hosts on port 3306
 
             // to create statement:
             s = c.createStatement();
